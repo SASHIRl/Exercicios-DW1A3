@@ -1,0 +1,22 @@
+.sobre-esporte p {
+	font-size: 20px;
+	font-family: Arial;
+	color: #000000;
+}
+.sobre-esporte img {
+	width: 25%;
+}
+h2 {
+	text-align: center;
+	padding: 20px;
+}
+table {
+	border: none;
+	text-align: center;
+}
+th, td {
+	border: none;
+	background-color: #FF0000;
+	padding: 5px;
+	width: 100px;
+}
