@@ -1,0 +1,11 @@
+form {
+	font-size: 20px;
+	font-family: Arial;
+	background: #ff0000;
+}
+textarea {
+	font-weight: bold;
+	font-family: Comics Sans;
+	color: #00ff00;
+	background: #0000bb;
+}
