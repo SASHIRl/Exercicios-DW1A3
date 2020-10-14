@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br"	>
+<head>
+	<meta charset="utf-8"/>
+	<title>Fatorial</title>
+	<link rel="stylesheet" type="text/css" href="Fatorial_JS.css"/>
+</head>
+<body>
+	<div class="caixa">
+		<input type="number" id="x1"><br><br>
+	    <button onclick="calcularFatorial()">Clique para calcular o fatorial</button>
+    </div>
+<script>
+	var resultado = 1;
+	alert ("''É preciso excogitar a fim de entender bem.''");
+	function calcularFatorial() {
+		var x1 = document.getElementById("x1").value;
+		for (var i = 1; i <= x1; i++) {
+			resultado  = resultado * i;
+		}
+		alert("O resultado é: " + resultado);
+	}
+</script>
+</body>
+</html>	

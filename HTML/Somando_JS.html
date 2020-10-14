@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br"	>
+<head>
+	<meta charset="utf-8"/>
+	<title>Soma</title>
+	<link rel="stylesheet" type="text/css" href="Somando_JS.css"/>
+</head>
+<body>
+	<div class="caixa">
+		<input type="number" id="x1"><br><br>
+	    <input type="number" id="x2"><br><br>
+	    <button onclick="soma()">Clique para somar</button>
+    </div>
+<script>
+	alert ("''É preciso excogitar a fim de entender bem.''");
+	function soma() {
+		var x1 = document.getElementById("x1").value;
+		var x2 = document.getElementById("x2").value;
+		var resultado = parseInt(x1) + parseInt(x2);
+		alert("O resultado é: " + resultado);
+	}
+</script>
+</body>
+</html>	
